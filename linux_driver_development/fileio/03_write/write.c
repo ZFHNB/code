@@ -9,10 +9,10 @@
 #include <stdlib.h>
 
 /*
-* ./open 1.text
+* ./write 1.txt str1 str2
 * argc = 0
-* argv[0] = ./open
-* argv[1] = 1.text
+* argv[0] = ./write
+* argv[1] = 1.txt
 */
 
 int main(int argc, char** argv)
@@ -21,11 +21,11 @@ int main(int argc, char** argv)
 
     if(argc != 2)
     {
-        printf("Usage: %s <file>\n", argv[0]);
+        printf("Usage: %s <file> <string 1> <string 2> ...\n", argv[0]);//<>表示参数不可省略
         exit(1);
     }
 
-    fd = open(argv[1], O_RDWR);
+    fd = open(argv[1], O_RDWR | O_CREAT | O_TRUNC, 0777);//int open(const char *pathname, int flags, mode_t mode)
     if(fd < 0)
     {
         printf("Can not open file %s\n", argv[1]);
@@ -38,10 +38,6 @@ int main(int argc, char** argv)
         printf("fd = %d\n",fd);
     }
 
-    while(1)
-    {
-        sleep(10);
-    }
     close(fd);
     return 0;
 }
