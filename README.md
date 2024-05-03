@@ -2,7 +2,7 @@
   
 ## 代码提交设备  
   
-### Surface  
+### Surface Pro 3 
   
 - Win 10  
 - Ubuntu 22.04（WSL）  
