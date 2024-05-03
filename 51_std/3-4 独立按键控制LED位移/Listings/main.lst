@@ -1,0 +1,78 @@
+C51 COMPILER V9.60.7.0   MAIN                                                              03/11/2024 22:19:55 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: D:\applications\keli 5 C51\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE INCDIR(D:\applications\k
+                    -eli 5 C51\C51\INC\Atmel) DEBUG OBJECTEXTEND PRINT(.\Listings\main.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <STC89C5xRC.H>
+   2          #include <INTRINS.H>
+   3          
+   4          #define DTime 20
+   5          
+   6          void Delay(unsigned int xms)  //@11.0592MHz
+   7          {
+   8   1        while(xms--){
+   9   2          unsigned char data i, j;
+  10   2      
+  11   2          _nop_();
+  12   2          i = 2;
+  13   2          j = 199;
+  14   2          do
+  15   2          {
+  16   3            while (--j);
+  17   3          } while (--i);
+  18   2        }
+  19   1      }
+  20          
+  21          unsigned char LEDNum;//操作数需移动的位数
+  22          
+  23          void main()
+  24          {
+  25   1        while(1)
+  26   1        {
+  27   2          if(P30 == 0)
+  28   2          {
+  29   3            Delay(DTime);
+  30   3            while(P30 == 0);
+  31   3            Delay(DTime);
+  32   3            
+  33   3            LEDNum++;
+  34   3            if(LEDNum>=8)
+  35   3              LEDNum = 0;
+  36   3            P2 = ~(0x01<<LEDNum);
+  37   3          }
+  38   2          
+  39   2          if(P31 == 0)
+  40   2          {
+  41   3            Delay(DTime);
+  42   3            while(P31 == 0);
+  43   3            Delay(DTime);
+  44   3            
+  45   3            if(LEDNum==0)
+  46   3              LEDNum = 7;
+  47   3            else
+  48   3              LEDNum--;
+  49   3            P2 = ~(0x01<<LEDNum);
+  50   3          }
+  51   2        }
+  52   1      }
+
+
+C51 COMPILER V9.60.7.0   MAIN                                                              03/11/2024 22:19:55 PAGE 2   
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    111    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

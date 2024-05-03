@@ -1,0 +1,5 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj",
+".\Objects\UART.obj" 
+TO ".\Objects\Projrct" 
+PRINT(".\Listings\Projrct.m51") RAMSIZE(256) 
