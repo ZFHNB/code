@@ -21,13 +21,13 @@ int main(int argc, char** argv)
     int i;
     int len;
 
-    if(argc < 3)
+    if(argc !=2)
     {
-        printf("Usage: %s <file> <string 1> <string 2> ...\n", argv[0]);//<>表示参数不可省略
+        printf("Usage: %s <file>\n", argv[0]);//<>表示参数不可省略
         exit(1);
     }
 
-    fd = open(argv[1], O_RDWR | O_CREAT | O_TRUNC, 0777);//int open(const char *pathname, int flags, mode_t mode)
+    fd = open(argv[1], O_RDWR | O_CREAT, 0777);//int open(const char *pathname, int flags, mode_t mode)
     if(fd < 0)
     {
         printf("Can not open file %s\n", argv[1]);
@@ -40,17 +40,9 @@ int main(int argc, char** argv)
         printf("fd = %d\n",fd);
     }
 
-    //顺序写入数据
-    for(i = 2; i < argc; i++)
-    {
-        len = write(fd, argv[i], strlen(argv[i]));
-        if(len != strlen(argv[i]))
-        {
-            perror("write");
-            break;
-        }
-        write(fd, "\r\n", 2);
-    }
+    //插入数据（会覆盖原有数据）
+    lseek(fd, 3, SEEK_SET);
+    write(fd, "222", 3);
 
     close(fd);
     return 0;
