@@ -10,7 +10,7 @@
 
 /*
 * ./write 1.txt str1 str2
-* argc = 0
+* argc = ...
 * argv[0] = ./write
 * argv[1] = 1.txt
 */

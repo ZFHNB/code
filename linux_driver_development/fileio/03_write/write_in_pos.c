@@ -9,8 +9,8 @@
 #include <stdlib.h>
 
 /*
-* ./write 1.txt str1 str2
-* argc = 0
+* ./write 1.txt
+* argc = 2
 * argv[0] = ./write
 * argv[1] = 1.txt
 */

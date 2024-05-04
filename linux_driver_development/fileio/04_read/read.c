@@ -10,7 +10,7 @@
 
 /*
 * ./read 1.txt
-* argc = 0
+* argc = 2
 * argv[0] = ./read
 * argv[1] = 1.txt
 */

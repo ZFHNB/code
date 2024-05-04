@@ -9,8 +9,8 @@
 #include <stdlib.h>
 
 /*
-* ./open 1.text
-* argc = 0
+* ./open 1.txt
+* argc = 2
 * argv[0] = ./open
 * argv[1] = 1.txt
 */

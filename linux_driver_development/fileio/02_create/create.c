@@ -10,7 +10,7 @@
 
 /*
 * ./creat 1.txt
-* argc = 0
+* argc = 2
 * argv[0] = ./creat
 * argv[1] = 1.txt
 */
