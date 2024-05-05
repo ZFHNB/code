@@ -1,0 +1,1 @@
+"main.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(D:\applications\keli 5 C51\C51\INC\Atmel) DEBUG OBJECTEXTEND PRINT(.\Listings\main.lst) TABS (2) OBJECT(.\Objects\main.obj)

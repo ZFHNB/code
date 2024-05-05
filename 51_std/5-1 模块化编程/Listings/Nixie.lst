@@ -1,0 +1,54 @@
+C51 COMPILER V9.60.7.0   NIXIE                                                             03/18/2024 19:17:20 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE NIXIE
+OBJECT MODULE PLACED IN .\Objects\Nixie.obj
+COMPILER INVOKED BY: D:\applications\keli 5 C51\C51\BIN\C51.EXE Nixie.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRIN
+                    -T(.\Listings\Nixie.lst) TABS(2) OBJECT(.\Objects\Nixie.obj)
+
+line level    source
+
+   1          #include <STC89C5xRC.H>
+   2          #include "Delay.h"
+   3          unsigned char NixieTable[] = {0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F,0x77,0x7C,0x39,0x5E,0x79,0
+             -x71,0x00,};
+   4          
+   5          void Nixie(unsigned char Location, Number)
+   6          {
+   7   1        switch(Location)
+   8   1        {
+   9   2          case 1:
+  10   2            P24 = 1; P23 = 1; P22 = 1;break;
+  11   2          case 2:
+  12   2            P24 = 1; P23 = 1; P22 = 0;break;
+  13   2          case 3:
+  14   2            P24 = 1; P23 = 0; P22 = 1;break;
+  15   2          case 4:
+  16   2            P24 = 1; P23 = 0; P22 = 0;break;
+  17   2          case 5:
+  18   2            P24 = 0; P23 = 1; P22 = 1;break;
+  19   2          case 6:
+  20   2            P24 = 0; P23 = 1; P22 = 0;break;
+  21   2          case 7:
+  22   2            P24 = 0; P23 = 0; P22 = 1;break;
+  23   2          case 8:
+  24   2            P24 = 0; P23 = 0; P22 = 0;break;
+  25   2        }
+  26   1        P0 = NixieTable[Number];
+  27   1        Delay(1);//稳定显示
+  28   1        P0 = 0x00;//消影
+  29   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    109    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     17    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
