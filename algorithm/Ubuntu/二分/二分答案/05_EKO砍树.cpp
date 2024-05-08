@@ -54,7 +54,7 @@ int main()
     sort(a, a + n);
     int hest = a[n - 1]; // 记录最大树高
 
-    int res = binary(-1, hest + 1);
+    int res = binary(-1, hest + 1);//取数组两端外（紧挨）的值
     printf("%d", res);
 
     return 0;
