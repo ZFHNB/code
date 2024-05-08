@@ -8,7 +8,7 @@ void swap(int *array, int i, int j) {
 
 void quick_sort(int *array, int L, int R) {
 	int i = L,j=R;
-	int pivot = (array[L] + array[R])/2;
+	int pivot = (array[L] + array[R])>>1;
 	while(i<=j)
 	{
 		while(array[i] < pivot)
