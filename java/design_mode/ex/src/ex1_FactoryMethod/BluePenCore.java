@@ -1,10 +1,9 @@
 package ex1_FactoryMethod;
 
-public class RedPenCore extends PenCore 
-{
-    RedPenCore() 
+public class BluePenCore extends PenCore{
+    BluePenCore()
     {
-        color = "红色";
+        color = "蓝色";
     }
     public void writeWord(String s)
     {

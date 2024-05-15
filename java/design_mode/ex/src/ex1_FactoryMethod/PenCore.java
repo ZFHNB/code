@@ -1,6 +1,7 @@
 package ex1_FactoryMethod;
 
-public abstract class PenCore {
+public abstract class PenCore
+{
     String color;
-    public abstract void writeBoard(String s);
+    public abstract void writeWord(String s);
 }
