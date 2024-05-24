@@ -7,11 +7,11 @@ public class PostalFacade {
 
     public PostalFacade(Package pkg, int i)
     {
-        c = new Check(pkg);
-        w = new Weight(pkg);
+        this.c = new Check(pkg);
+        this.w = new Weight(pkg);
 
         c.Checked();
         System.out.println("费用为："+w.Charge());
-        t = new Transport(i);
+        this.t = new Transport(i);
     } 
 }
