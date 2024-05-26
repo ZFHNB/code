@@ -1,0 +1,15 @@
+﻿  ex1.cpp
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,66): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,66): warning C4244:         with
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,66): warning C4244:         [
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,66): warning C4244:             _Tp=int
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,66): warning C4244:         ]
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,48): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,48): warning C4244:         with
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,48): warning C4244:         [
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,48): warning C4244:             _Tp=int
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,48): warning C4244:         ]
+D:\a-std and work file\code_git\opencv_ex\test1\test1\ex1.cpp(84,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  test1.cpp
+  正在生成代码...
+  test1.vcxproj -> D:\a-std and work file\code_git\opencv_ex\test1\x64\Debug\test1.exe
