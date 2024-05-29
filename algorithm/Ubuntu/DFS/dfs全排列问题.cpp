@@ -7,14 +7,14 @@ using namespace std;
 const int N = 10;
 
 int n;
-bool st[N];//true表示被选过，false表示未被选过
-int arr[N];//存储排列的数组（123,132等）
+bool st[N];//true琛ㄧず琚�夎繃锛宖alse琛ㄧず鏈閫夎繃
+int arr[N];//瀛樺偍鎺掑垪鐨勬暟缁勶紙123,132绛夛級
 
-//x表示当前枚举到了哪个位置
+//x琛ㄧず褰撳墠鏋氫妇鍒颁簡鍝釜浣嶇疆
 void dfs(int x)
 {
 	
-	if(x > n)//结束条件
+	if(x > n)//缁撴潫鏉′欢
 	{
 		for(int i = 1; i<=n; i++)
 		{
@@ -41,6 +41,7 @@ int main()
 {
 	scanf("%d", &n);
 	dfs(1);
+	return 0;
 	
 	return 0;
 }
