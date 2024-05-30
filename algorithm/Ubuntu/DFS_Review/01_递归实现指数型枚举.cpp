@@ -33,7 +33,7 @@ void dfs(int x)
 }
 int main()
 {
-    scanf("%d ", &n);
+    scanf("%d", &n);
     dfs(1);
 
     return 0;
