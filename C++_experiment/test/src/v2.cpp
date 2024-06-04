@@ -88,6 +88,11 @@ template<typename _Tp> _Tp Vector2D<_Tp>::included_angle(Vector2D<_Tp>& b) {
     return acos(dot_product / (norm_a * norm_b));
 }
 
+// // 标量和向量的乘法（友元函数）
+// template<typename _Tp> Vector2D<_Tp> operator*(_Tp k, Vector2D<_Tp>& V) {
+//     return Vector2D<_Tp>(k * V.get_x(), k * V.get_y());
+// }
+
 // 标量和向量的乘法
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator*(_Tp k) {
     return Vector2D<_Tp>(vx * k, vy * k);

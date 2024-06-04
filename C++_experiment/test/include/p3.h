@@ -10,6 +10,9 @@ class Point3D : public Point2D< _Tp>{
 	void p_display();
 	private:
 	_Tp pz;
+
+	// 声明Vector3D为友元类
+	template<typename _Tp2> friend class Vector3D;
 };
 //类模版显式实例化
 template class Point3D<int>;
