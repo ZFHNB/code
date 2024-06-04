@@ -10,7 +10,7 @@ int main(void){
 	
 	Vector2D<int> v2(0,1);
 	v2.v_display();
-	v2=2*v2;
+	v2=v2*2;
 	v2.v_display();
 	return 0;
 }

@@ -57,17 +57,18 @@ template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator-(Vector2D<_Tp>& b) 
     return Vector2D<_Tp>(vx - b.vx, vy - b.vy);
 }
 
-// 向量的叉积（仅适用于二维向量，返回标量）
+// 向量的叉积
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::cross(Vector2D<_Tp>& b) {
-    return Vector2D<_Tp>(0, 0, vy * b.vx - vx * b.vy);
-}
+    int res = vx * b.vy - vy * b.vx;
+    return Vector2D<_Tp>(res, res);
+}                         
 
 // 向量的投影
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::project_to(Vector2D<_Tp>& b) {
-    _Tp b_norm_sq = b.vx * b.vx + b.vy * b.vy;
-    if (b_norm_sq == 0) return *this; // 如果向量b是零向量，则返回自身
-    _Tp scalar_proj = (vx * b.vx + vy * b.vy) / b_norm_sq;
-    return Vector2D<_Tp>(b.vx * scalar_proj, b.vy * scalar_proj);
+    _Tp b_norm_square = b.vx * b.vx + b.vy * b.vy;
+    if (b_norm_square == 0) return *this; // 如果向量b是零向量，则返回自身
+    _Tp projection = (vx * b.vx + vy * b.vy) / b_norm_square;
+    return Vector2D<_Tp>(b.vx * projection, b.vy * projection);
 }
 
 // 向量的点积
@@ -87,12 +88,7 @@ template<typename _Tp> _Tp Vector2D<_Tp>::included_angle(Vector2D<_Tp>& b) {
     return acos(dot_product / (norm_a * norm_b));
 }
 
-// 标量和向量的乘法（友元函数）
-template<typename _Tp> Vector2D<_Tp> operator*(_Tp k) {
-    return Vector2D<_Tp>(k * this->vx, k * this->vy);
-}
-
-// 标量和向量的乘法（成员函数）
+// 标量和向量的乘法
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator*(_Tp k) {
     return Vector2D<_Tp>(vx * k, vy * k);
 }
@@ -108,8 +104,3 @@ template<typename _Tp> void Vector2D<_Tp>::v_display() {
     cout << "V[" << vx << "," << vy << "]" << endl;
 }
 
-// 类模板显式实例化
-template class Vector2D<int>;
-template class Vector2D<float>;
-template class Vector2D<double>;
-template class Vector2D<long double>;

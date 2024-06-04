@@ -7,8 +7,12 @@ template<typename _Tp> class Point2D{
 	Point2D(_Tp x, _Tp y);//使用一组形参初始化，px=x，py=y
 	void p_display();
 	protected:
-	_Tp px;	_Tp py;	
+	_Tp px;	_Tp py;	 
+	
+	// 声明Vector2D为友元类
+	template<typename _Tp2> friend class Vector2D;
 };
+
 //类模版显式实例化
 template class Point2D<int>;
 template class Point2D<float>;

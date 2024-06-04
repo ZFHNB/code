@@ -7,8 +7,11 @@
 #include <sys/shm.h>  
 #include <sys/wait.h>  
   
+/* 定义最大子进程数 */
 #define MAX_CHILDREN 3  
+/* 定义循环计数 */
 #define LOOP_COUNT 5  
+/* 定义共享内存大小 */
 #define SHM_SIZE 1024  
   
 int main() {  
@@ -23,7 +26,9 @@ int main() {
         exit(1);  
     }  
   
-    if ((shm_addr = shmat(shmid, NULL, 0)) == (char *)-1) {  
+  
+    /* 将共享内存附加到进程的地址空间 */
+    if ((shm_addr = (char *)shmat(shmid, NULL, 0)) == (char *)-1) {  
         perror("shmat");  
         exit(1);  
     }  
