@@ -82,16 +82,10 @@ template<typename _Tp> _Tp Vector2D<_Tp>::included_angle(Vector2D<_Tp>& b) {
     _Tp norm_a = norm();
     _Tp norm_b = b.norm();
     if (norm_a == 0 || norm_b == 0) {
-        // 抛出异常或返回一个错误值
-        throw std::invalid_argument("Cannot compute the angle with a zero vector.");
+        cout << "数据异常" << endl;
     }
     return acos(dot_product / (norm_a * norm_b));
 }
-
-// // 标量和向量的乘法（友元函数）
-// template<typename _Tp> Vector2D<_Tp> operator*(_Tp k, Vector2D<_Tp>& V) {
-//     return Vector2D<_Tp>(k * V.get_x(), k * V.get_y());
-// }
 
 // 标量和向量的乘法
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator*(_Tp k) {
@@ -100,7 +94,7 @@ template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator*(_Tp k) {
 
 // 向量对标量的除法
 template<typename _Tp> Vector2D<_Tp> Vector2D<_Tp>::operator/(_Tp k) {
-    if (k == 0) throw runtime_error("Division by zero"); // 防止除以零
+    if (k == 0) cout << "不能除以零" << endl;
     return Vector2D<_Tp>(vx / k, vy / k);
 }
 
