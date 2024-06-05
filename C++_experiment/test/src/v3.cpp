@@ -56,33 +56,28 @@ Vector3D<_Tp> Vector3D<_Tp>::unit() {
 }
 
 // 向量加法
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::operator+(Vector3D<_Tp>& b) {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::operator+(Vector3D<_Tp>& b) {
     return Vector3D<_Tp>(vx + b.vx, vy + b.vy, vz + b.vz);
 }
 
 // 向量减法
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::operator-(Vector3D<_Tp>& b) {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::operator-(Vector3D<_Tp>& b) {
     return Vector3D<_Tp>(vx - b.vx, vy - b.vy, vz - b.vz);
 }
 
 // 标量和向量的乘法
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::operator*(_Tp k) {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::operator*(_Tp k) {
     return Vector3D<_Tp>(vx * k, vy * k, vz * k);
 }
 
 // 向量对标量的除法
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::operator/(_Tp k) {
-    if (k == 0) throw runtime_error("Division by zero"); // 防止除以零
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::operator/(_Tp k) {
+    if (k == 0) cout << "不能除以零" << endl;
     return Vector3D<_Tp>(vx / k, vy / k, vz / k);
 }
 
 // 向量的叉积
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::cross(Vector3D<_Tp>& b) {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::cross(Vector3D<_Tp>& b) {
     return Vector3D<_Tp>(
         vy * b.vz - vz * b.vy,
         vz * b.vx - vx * b.vz,
@@ -91,8 +86,7 @@ Vector3D<_Tp> Vector3D<_Tp>::cross(Vector3D<_Tp>& b) {
 }
 
 // 向量的投影
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::project_to(Vector3D<_Tp>& b) {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::project_to(Vector3D<_Tp>& b) {
     _Tp b_norm_square = b.vx * b.vx + b.vy * b.vy + b.vz * b.vz;
     if (b_norm_square == 0) return *this; // 如果向量b是零向量，则返回自身
     _Tp projection = (vx * b.vx + vy * b.vy + vz * b.vz) / b_norm_square;
@@ -100,20 +94,17 @@ Vector3D<_Tp> Vector3D<_Tp>::project_to(Vector3D<_Tp>& b) {
 }
 
 // 向量的点积
-template<typename _Tp>
-_Tp Vector3D<_Tp>::dot(Vector3D<_Tp>& b) {
+template<typename _Tp> _Tp Vector3D<_Tp>::dot(Vector3D<_Tp>& b) {
     return vx * b.vx + vy * b.vy + vz * b.vz;
 }
 
 // 求向量a和向量b的夹角
-template<typename _Tp>
-_Tp Vector3D<_Tp>::included_angle(Vector3D<_Tp>& b) {
+template<typename _Tp> _Tp Vector3D<_Tp>::included_angle(Vector3D<_Tp>& b) {
     _Tp dot_product = dot(b);
     _Tp norm_a = norm();
     _Tp norm_b = b.norm();
     if (norm_a == 0 || norm_b == 0) {
-        // 抛出异常或返回一个错误值
-        throw std::invalid_argument("Cannot compute the angle with a zero vector.");
+        cout << "数据异常" << endl;
     }
     return acos(dot_product / (norm_a * norm_b));
 }
