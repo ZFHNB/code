@@ -31,25 +31,26 @@ template<typename _Tp> void Vector3D< _Tp>::v_display(){
 	cout<<"V["<<vx<<","<<vy<<","<<vz<<"]"<<endl;
 }
 
+//x
 template<typename _Tp> _Tp Vector3D< _Tp>::get_x(){
 	return vx;
 }
+//y
 template<typename _Tp> _Tp Vector3D< _Tp>::get_y(){
 	return vy;
 }
+//z
 template<typename _Tp> _Tp Vector3D< _Tp>::get_z(){
 	return vz;
 }
 
 // 计算向量的模
-template<typename _Tp>
-_Tp Vector3D<_Tp>::norm() {
+template<typename _Tp> _Tp Vector3D<_Tp>::norm() {
     return sqrt(vx * vx + vy * vy + vz * vz);
 }
 
 // 求单位向量
-template<typename _Tp>
-Vector3D<_Tp> Vector3D<_Tp>::unit() {
+template<typename _Tp> Vector3D<_Tp> Vector3D<_Tp>::unit() {
     _Tp n = norm();
     if (n == 0) return *this; // 如果向量是零向量，则返回自身
     return Vector3D<_Tp>(vx / n, vy / n, vz / n);
