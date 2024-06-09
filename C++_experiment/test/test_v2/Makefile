@@ -1,7 +1,7 @@
 # Set compile environment
 #########################################
 CCFLAGO	=-I../include -L../lib  -ltest
-EXECNAME=v2-${USERNAME}
+EXECNAME=v2-guolujie
 INSTDIR	=./
 LD_LIBRARY_PATH=../lib
 #Run
