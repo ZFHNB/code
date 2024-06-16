@@ -1,4 +1,4 @@
-﻿// test1.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include<opencv2/core/core.hpp>
@@ -9,23 +9,18 @@
 using namespace cv;
 using namespace std;
 
-int main() {
-	/*测试代码：*/
-	//Mat image = Mat::zeros(300, 600, CV_8UC3);
-	//circle(image, Point(300, 200), 100, Scalar(0, 255, 120), -100);
-	//circle(image, Point(400, 200), 100, Scalar(255, 255, 255), -100);
-	//imshow("show window", image);
-	//waitKey(0);
-	/*test1:*/
-	//n1();
-	//n2();
-	//n3();
-	//n4();
-	//n5();
-	//n6();
+#include <iostream>
+
+int main()
+{
+	Mat image = Mat::zeros(300, 600, CV_8UC3);
+	circle(image, Point(300, 200), 100, Scalar(0, 255, 120), -100);
+	circle(image, Point(400, 200), 100, Scalar(255, 255, 255), -100);
+	imshow("show window", image);
+	waitKey(0);
+
 	return 0;
 }
-
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
