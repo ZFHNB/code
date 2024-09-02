@@ -5,7 +5,6 @@
   
 int main() {  
     pid_t child1, child2, child;  
-    int status;  
   
     // 创建第一个子进程来执行 "ls -l" 命令  
     child1 = fork();  

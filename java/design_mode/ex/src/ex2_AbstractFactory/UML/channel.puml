@@ -1,0 +1,24 @@
+@startuml classDiagram
+    Invoker --> Command : contains
+    Command <|.. open : implements
+    Command <|.. close : implements
+    Command <|.. changeChannel : implements
+    open ..> Television
+    close ..> Television
+    changeChannel ..> Television
+    Invoker : -command : Command
+    Invoker : +excute() : void
+    Command : -tv : Television
+    Command : +execute() : void
+    open : -tv : Television
+    open : +execute() : void
+    close : -tv : Television
+    close : +execute() : void
+    changeChannel : -tv : Television
+    changeChannel : -channel : int
+    changeChannel : +execute() : void
+    Television : -currentChannel : int
+    Television : +open() : void
+    Television : +close() : void
+    Television : +changeChannel(int channel) : void
+@enduml
