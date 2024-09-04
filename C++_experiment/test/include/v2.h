@@ -19,9 +19,6 @@ class Vector2D{
 	Vector2D<_Tp> project_to(Vector2D<_Tp>& b);//向量的投影，用法a.project_to(b)，表示向量a在向量b所在方向的投影向量，返回值还是一个向量
 	_Tp  dot(Vector2D<_Tp>& b);//向量的点积，用法a.dot(b)，返回值是一个标量
 	_Tp  included_angle(Vector2D<_Tp>& b);//求向量a和向量b的夹角，用法a.included_angle(b)，返回值为弧度制
-	friend Vector2D<_Tp> operator* (_Tp k, Vector2D<_Tp>& V){
-		return Vector2D<_Tp>(k*V.get_x(), k*V.get_y());
-	}//标量和向量的乘法，用法k*V，返回值还是一个向量
 	Vector2D<_Tp> operator*( _Tp k);//标量和向量的乘法，用法V*k，返回值还是一个向量,需要用到this指针
 	Vector2D<_Tp> operator/( _Tp k);//向量对标量的除法，用法V/k，返回值还是一个向量,需要用到this指针
 	void v_display();
