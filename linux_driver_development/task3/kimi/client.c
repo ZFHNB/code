@@ -14,7 +14,6 @@ void remove_newline(char *str) {
         str[len - 1] = '\0';
     }
 }
-#define PORT 12345
 
 // 客户端
 #define PORT 12345

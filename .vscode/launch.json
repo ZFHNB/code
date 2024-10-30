@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "application",
+            "request": "launch",
+            "mainClass": "ex_FacadeMonthTest.application",
+            "projectName": "code_fb2b78c1"
+        },
+        {
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
