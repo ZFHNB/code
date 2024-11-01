@@ -52,6 +52,7 @@ int main(int argc, char **argv)
 
     while(1)
     {
+        printf("> ");
         if(NULL != fgets(sendBuf, BUFSIZE, stdin))//从标准输入获取数据，存入缓冲区
         {
             iSendLen = write(iSocketClient,sendBuf,strlen(sendBuf));
