@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_spawner = turtle_battle.battle:main
+

@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000693] (-) JobUnselected: {'identifier': 'villege_li'}
+[0.000747] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.000795] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.007767] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.008604] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.009480] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang', '--', '-j16', '-l16'], 'cwd': '/home/zfh/code/code/ros2Std/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zfh'), ('GIT_ASKPASS', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zfh'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bbb0e6ba-3c66-4a2c-bc0f-6ccabab4d6c2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zfh'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/397_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/home/zfh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/d/Java/jdk-1.8.111/bin:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/applications/Git/cmd:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/applications/微信web开发者工具/dll:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Users/27953/AppData/Local/Microsoft/WindowsApps:/mnt/d/applications/IntelliJ IDEA 2023.3.4/bin:/mnt/d/applications/Microsoft VS Code/bin:/mnt/c/Users/27953/.dotnet/tools:/snap/bin:/home/zfh/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-db99cff8c4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.050001] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.069542] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.099390] (-) TimerEvent: {}
+[0.199894] (-) TimerEvent: {}
+[0.300391] (-) TimerEvent: {}
+[0.400816] (-) TimerEvent: {}
+[0.501382] (-) TimerEvent: {}
+[0.602560] (-) TimerEvent: {}
+[0.703299] (-) TimerEvent: {}
+[0.803974] (-) TimerEvent: {}
+[0.904679] (-) TimerEvent: {}
+[1.007547] (-) TimerEvent: {}
+[1.110422] (-) TimerEvent: {}
+[1.213273] (-) TimerEvent: {}
+[1.316159] (-) TimerEvent: {}
+[1.419010] (-) TimerEvent: {}
+[1.519522] (-) TimerEvent: {}
+[1.620038] (-) TimerEvent: {}
+[1.723149] (-) TimerEvent: {}
+[1.823885] (-) TimerEvent: {}
+[1.929278] (-) TimerEvent: {}
+[2.034795] (-) TimerEvent: {}
+[2.140274] (-) TimerEvent: {}
+[2.244851] (-) TimerEvent: {}
+[2.347693] (-) TimerEvent: {}
+[2.449139] (-) TimerEvent: {}
+[2.552093] (-) TimerEvent: {}
+[2.655011] (-) TimerEvent: {}
+[2.757911] (-) TimerEvent: {}
+[2.863299] (-) TimerEvent: {}
+[2.968668] (-) TimerEvent: {}
+[3.074040] (-) TimerEvent: {}
+[3.178575] (-) TimerEvent: {}
+[3.237244] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.237553] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.237648] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.237714] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.237792] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.237850] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.237902] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.237950] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.238027] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.238080] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.238127] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.238188] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:3\x1b[m\x1b[K:\n'}
+[3.238235] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSingleDogNode::SingleDogNode(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.238282] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:12:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.238333] (village_wang) StderrLine: {'line': b'   12 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd\xef\xbc\x8c\xe6\x88\x91\xe6\x98\xaf\xe5\x8d\x95\xe8\xba\xab\xe7\x8b\x97%s."\x1b[m\x1b[K, name);\n'}
+[3.238379] (village_wang) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.238463] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:12:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.238518] (village_wang) StderrLine: {'line': b'   12 |         RCLCPP_INFO(this->get_logger(), "\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd\xef\xbc\x8c\xe6\x88\x91\xe6\x98\xaf\xe5\x8d\x95\xe8\xba\xab\xe7\x8b\x97\x1b[01;36m\x1b[K%s\x1b[m\x1b[K.", name);\n'}
+[3.238569] (village_wang) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.238621] (village_wang) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.238668] (village_wang) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[3.280333] (-) TimerEvent: {}
+[3.382376] (-) TimerEvent: {}
+[3.484324] (-) TimerEvent: {}
+[3.585061] (-) TimerEvent: {}
+[3.685880] (-) TimerEvent: {}
+[3.786833] (-) TimerEvent: {}
+[3.887741] (-) TimerEvent: {}
+[3.989774] (-) TimerEvent: {}
+[4.014921] (village_wang) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wang2_node\x1b[0m\n'}
+[4.090063] (-) TimerEvent: {}
+[4.159245] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[4.171701] (village_wang) CommandEnded: {'returncode': 0}
+[4.190263] (-) TimerEvent: {}
+[4.197135] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[4.205893] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang'], 'cwd': '/home/zfh/code/code/ros2Std/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zfh'), ('GIT_ASKPASS', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zfh'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bbb0e6ba-3c66-4a2c-bc0f-6ccabab4d6c2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zfh'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/397_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/home/zfh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/d/Java/jdk-1.8.111/bin:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/applications/Git/cmd:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/applications/微信web开发者工具/dll:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Users/27953/AppData/Local/Microsoft/WindowsApps:/mnt/d/applications/IntelliJ IDEA 2023.3.4/bin:/mnt/d/applications/Microsoft VS Code/bin:/mnt/c/Users/27953/.dotnet/tools:/snap/bin:/home/zfh/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-db99cff8c4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.213940] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.214393] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[4.214590] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[4.214709] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[4.214922] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[4.215017] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[4.215091] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[4.215292] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[4.215365] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[4.215421] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[4.215474] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[4.215548] (village_wang) StdoutLine: {'line': b'-- Installing: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[4.215598] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[4.215728] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[4.215797] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[4.215857] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/package.xml\n'}
+[4.215910] (village_wang) StdoutLine: {'line': b'-- Installing: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[4.215958] (village_wang) StdoutLine: {'line': b'-- Set runtime path of "/home/zfh/code/code/ros2Std/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""\n'}
+[4.217876] (village_wang) CommandEnded: {'returncode': 0}
+[4.257069] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[4.258174] (-) EventReactorShutdown: {}

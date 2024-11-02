@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turtle_battle/turtle_battle.egg-info
+writing ../../build/turtle_battle/turtle_battle.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_battle/turtle_battle.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_battle/turtle_battle.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_battle/turtle_battle.egg-info/requires.txt
+writing top-level names to ../../build/turtle_battle/turtle_battle.egg-info/top_level.txt
+writing manifest file '../../build/turtle_battle/turtle_battle.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_battle/turtle_battle.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_battle/turtle_battle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build
+creating /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib
+creating /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle
+copying turtle_battle/battle.py -> /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle
+copying turtle_battle/turtle_spawner.py -> /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle
+copying turtle_battle/__init__.py -> /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle
+running install
+running install_lib
+creating /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle
+copying /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle/battle.py -> /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle
+copying /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle/turtle_spawner.py -> /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle
+copying /home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/build/lib/turtle_battle/__init__.py -> /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle
+byte-compiling /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle/battle.py to battle.cpython-310.pyc
+byte-compiling /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+byte-compiling /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/share/ament_index
+creating /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/share/ament_index/resource_index
+creating /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/share/ament_index/resource_index/packages
+copying resource/turtle_battle -> /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/share/ament_index/resource_index/packages
+copying package.xml -> /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/share/turtle_battle
+running install_egg_info
+Copying ../../build/turtle_battle/turtle_battle.egg-info to /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/python3.10/site-packages/turtle_battle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_spawner script to /home/zfh/code/code/ros2Std/turtle_ws/install/turtle_battle/lib/turtle_battle
+writing list of installed files to '/home/zfh/code/code/ros2Std/turtle_ws/build/turtle_battle/install.log'

@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000729] (-) JobUnselected: {'identifier': 'villege_li'}
+[0.001044] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.001225] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.008536] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.009374] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.010261] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang', '--', '-j16', '-l16'], 'cwd': '/home/zfh/code/code/ros2Std/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zfh'), ('GIT_ASKPASS', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zfh'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bbb0e6ba-3c66-4a2c-bc0f-6ccabab4d6c2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zfh'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/397_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/home/zfh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/d/Java/jdk-1.8.111/bin:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/applications/Git/cmd:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/applications/微信web开发者工具/dll:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Users/27953/AppData/Local/Microsoft/WindowsApps:/mnt/d/applications/IntelliJ IDEA 2023.3.4/bin:/mnt/d/applications/Microsoft VS Code/bin:/mnt/c/Users/27953/.dotnet/tools:/snap/bin:/home/zfh/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-db99cff8c4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zfh/code/code/ros2Std/town_ws/build/village_wang'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.063571] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[0.082854] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[0.099190] (-) TimerEvent: {}
+[0.199756] (-) TimerEvent: {}
+[0.300968] (-) TimerEvent: {}
+[0.401634] (-) TimerEvent: {}
+[0.502348] (-) TimerEvent: {}
+[0.603144] (-) TimerEvent: {}
+[0.703965] (-) TimerEvent: {}
+[0.805136] (-) TimerEvent: {}
+[0.907357] (-) TimerEvent: {}
+[1.009199] (-) TimerEvent: {}
+[1.110380] (-) TimerEvent: {}
+[1.211919] (-) TimerEvent: {}
+[1.312960] (-) TimerEvent: {}
+[1.414273] (-) TimerEvent: {}
+[1.515834] (-) TimerEvent: {}
+[1.616648] (-) TimerEvent: {}
+[1.718491] (-) TimerEvent: {}
+[1.819673] (-) TimerEvent: {}
+[1.921164] (-) TimerEvent: {}
+[2.022717] (-) TimerEvent: {}
+[2.123475] (-) TimerEvent: {}
+[2.224381] (-) TimerEvent: {}
+[2.325857] (-) TimerEvent: {}
+[2.427509] (-) TimerEvent: {}
+[2.531286] (-) TimerEvent: {}
+[2.632003] (-) TimerEvent: {}
+[2.737122] (-) TimerEvent: {}
+[2.838954] (-) TimerEvent: {}
+[2.940960] (-) TimerEvent: {}
+[3.046114] (-) TimerEvent: {}
+[3.151240] (-) TimerEvent: {}
+[3.175669] (village_wang) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.176032] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.176152] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.176232] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.176305] (village_wang) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:3\x1b[m\x1b[K:\n'}
+[3.176404] (village_wang) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = SingleDogNode; _Args = {const char (&)[6]}; _Tp = SingleDogNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.176486] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = SingleDogNode; _Args = {const char (&)[6]}; _Tp = SingleDogNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<SingleDogNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176555] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[6]}; _Tp = SingleDogNode; _Alloc = std::allocator<SingleDogNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176613] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SingleDogNode; _Alloc = std::allocator<SingleDogNode>; _Args = {const char (&)[6]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176662] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SingleDogNode>; _Args = {const char (&)[6]}; _Tp = SingleDogNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176710] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SingleDogNode>; _Args = {const char (&)[6]}; _Tp = SingleDogNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176757] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SingleDogNode; _Alloc = std::allocator<SingleDogNode>; _Args = {const char (&)[6]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176804] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SingleDogNode; _Args = {const char (&)[6]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.176868] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:30:48:\x1b[m\x1b[K   required from here\n'}
+[3.176929] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.176982] (village_wang) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.177029] (village_wang) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.177077] (village_wang) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.177123] (village_wang) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.177168] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:14:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[KSingleDogNode::SingleDogNode(char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177221] (village_wang) StderrLine: {'line': b'   14 | SingleDogNode::SingleDogNode(\x1b[01;36m\x1b[Kchar *name\x1b[m\x1b[K) : Node(name)//\xe4\xbd\xbf\xe7\x94\xa8\xe5\x88\x9d\xe5\xa7\x8b\xe5\x8c\x96\xe5\x88\x97\xe8\xa1\xa8\xe5\x88\x9d\xe5\xa7\x8b\xe5\x8c\x96\xe5\xaf\xb9\xe8\xb1\xa1\xe6\x88\x90\xe5\x91\x98\n'}
+[3.177269] (village_wang) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.251975] (-) TimerEvent: {}
+[3.261025] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.261356] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/wang2_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.261671] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.264272] (village_wang) CommandEnded: {'returncode': 2}
+[3.302134] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[3.313372] (-) EventReactorShutdown: {}

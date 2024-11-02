@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/zfh/code/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/code/ros2Std/town_ws/build/village_wang -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[2.405s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.406s]                  from [01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:3[m[K:
+[2.406s] [01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[2.406s] [01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:16:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.406s]    16 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"大家好，我是单身狗%s."[m[K, name);
+[2.406s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.406s] [01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:16:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.406s]    16 |     RCLCPP_INFO(this->get_logger(), "大家好，我是单身狗[01;36m[K%s[m[K.", name);
+[2.406s]       |                                                        [01;36m[K~^[m[K
+[2.406s]       |                                                         [01;36m[K|[m[K
+[2.406s]       |                                                         [01;36m[Kchar*[m[K
+[2.949s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[3.107s] [100%] Built target wang2_node
+[3.118s] Invoked command in '/home/zfh/code/code/ros2Std/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/code/ros2Std/town_ws/build/village_wang -- -j16 -l16
+[3.152s] Invoking command in '/home/zfh/code/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zfh/code/code/ros2Std/town_ws/build/village_wang
+[3.159s] -- Install configuration: ""
+[3.159s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[3.160s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[3.160s] -- Installing: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/package.dsv
+[3.161s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[3.161s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[3.161s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[3.161s] -- Up-to-date: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/share/village_wang/package.xml
+[3.161s] -- Installing: /home/zfh/code/code/ros2Std/town_ws/install/village_wang/lib/village_wang/wang2_node
+[3.161s] -- Set runtime path of "/home/zfh/code/code/ros2Std/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[3.164s] Invoked command in '/home/zfh/code/code/ros2Std/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zfh/code/code/ros2Std/town_ws/build/village_wang

@@ -1,0 +1,14 @@
+[01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:10:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+   10 |     SingleDogNode(std::string name) : Node(name)[01;31m[K;[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:[m[K At global scope:
+[01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:14:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’
+   14 | [01;31m[KSingleDogNode[m[K::SingleDogNode(std::string name) : Node(name)//使用初始化列表初始化对象成员
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:10:5:[m[K [01;36m[Knote: [m[K‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’ previously defined here
+   10 |     [01;36m[KSingleDogNode[m[K(std::string name) : Node(name);
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
