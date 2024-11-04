@@ -1,0 +1,23 @@
+[0.547s] Invoking command in '/home/zfh/code/code/ros2Std/town_ws/src/villege_li': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/villege_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/villege_li build --build-base /home/zfh/code/code/ros2Std/town_ws/build/villege_li/build install --record /home/zfh/code/code/ros2Std/town_ws/build/villege_li/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.728s] writing ../../build/villege_li/villege_li.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/villege_li/villege_li.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/villege_li/villege_li.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/villege_li/villege_li.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/villege_li/villege_li.egg-info/top_level.txt
+[0.731s] reading manifest file '../../build/villege_li/villege_li.egg-info/SOURCES.txt'
+[0.732s] writing manifest file '../../build/villege_li/villege_li.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.733s] running install
+[0.733s] running install_lib
+[0.735s] running install_data
+[0.735s] running install_egg_info
+[0.738s] removing '/home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/python3.10/site-packages/villege_li-0.0.0-py3.10.egg-info' (and everything under it)
+[0.739s] Copying ../../build/villege_li/villege_li.egg-info to /home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/python3.10/site-packages/villege_li-0.0.0-py3.10.egg-info
+[0.741s] running install_scripts
+[0.759s] Installing li4_node script to /home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/villege_li
+[0.759s] Installing li4_node_oop script to /home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/villege_li
+[0.760s] Installing li4_node_pop script to /home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/villege_li
+[0.760s] writing list of installed files to '/home/zfh/code/code/ros2Std/town_ws/build/villege_li/install.log'
+[0.788s] Invoked command in '/home/zfh/code/code/ros2Std/town_ws/src/villege_li' returned '0': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/villege_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/villege_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/villege_li build --build-base /home/zfh/code/code/ros2Std/town_ws/build/villege_li/build install --record /home/zfh/code/code/ros2Std/town_ws/build/villege_li/install.log --single-version-externally-managed install_data

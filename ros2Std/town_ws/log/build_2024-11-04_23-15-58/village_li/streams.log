@@ -1,0 +1,23 @@
+[0.724s] Invoking command in '/home/zfh/code/code/ros2Std/town_ws/build/village_li': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/village_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zfh/code/code/ros2Std/town_ws/build/village_li/build --no-deps symlink_data
+[0.946s] running develop
+[0.947s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.947s]   warnings.warn(
+[1.075s] running egg_info
+[1.075s] writing village_li.egg-info/PKG-INFO
+[1.075s] writing dependency_links to village_li.egg-info/dependency_links.txt
+[1.076s] writing entry points to village_li.egg-info/entry_points.txt
+[1.076s] writing requirements to village_li.egg-info/requires.txt
+[1.076s] writing top-level names to village_li.egg-info/top_level.txt
+[1.078s] reading manifest file 'village_li.egg-info/SOURCES.txt'
+[1.079s] writing manifest file 'village_li.egg-info/SOURCES.txt'
+[1.081s] running build_ext
+[1.081s] Creating /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village-li.egg-link (link to .)
+[1.082s] Installing li4_node script to /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/village_li
+[1.082s] Installing li4_node_oop script to /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/village_li
+[1.083s] Installing li4_node_pop script to /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/village_li
+[1.083s] 
+[1.083s] Installed /home/zfh/code/code/ros2Std/town_ws/build/village_li
+[1.083s] running symlink_data
+[1.083s] symbolically linking /home/zfh/code/code/ros2Std/town_ws/build/village_li/resource/village_li -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/share/ament_index/resource_index/packages
+[1.083s] symbolically linking /home/zfh/code/code/ros2Std/town_ws/build/village_li/package.xml -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/share/village_li
+[1.116s] Invoked command in '/home/zfh/code/code/ros2Std/town_ws/build/village_li' returned '0': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/village_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zfh/code/code/ros2Std/town_ws/build/village_li/build --no-deps symlink_data
