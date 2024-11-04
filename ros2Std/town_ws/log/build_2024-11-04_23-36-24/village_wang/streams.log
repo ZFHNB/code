@@ -1,0 +1,6 @@
+[0.051s] Invoking command in '/home/zfh/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4
+[0.902s] [0mCMake Error: The current CMakeCache.txt directory /home/zfh/code/ros2Std/town_ws/build/village_wang/CMakeCache.txt is different than the directory /home/zfh/code/code/ros2Std/town_ws/build/village_wang where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.326s] [0mCMake Error: The source directory "/home/zfh/code/code/ros2Std/town_ws/src/village_wang" does not exist.
+[1.326s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.383s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[1.465s] Invoked command in '/home/zfh/code/ros2Std/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4

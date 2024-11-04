@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.002466] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.002933] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict()}
+[0.003101] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.098018] (-) TimerEvent: {}
+[0.199171] (-) TimerEvent: {}
+[0.299965] (-) TimerEvent: {}
+[0.400569] (-) TimerEvent: {}
+[0.501222] (-) TimerEvent: {}
+[0.601922] (-) TimerEvent: {}
+[0.702753] (-) TimerEvent: {}
+[0.803669] (-) TimerEvent: {}
+[0.904694] (-) TimerEvent: {}
+[1.005562] (-) TimerEvent: {}
+[1.106420] (-) TimerEvent: {}
+[1.207130] (-) TimerEvent: {}
+[1.307901] (-) TimerEvent: {}
+[1.408617] (-) TimerEvent: {}
+[1.509410] (-) TimerEvent: {}
+[1.610539] (-) TimerEvent: {}
+[1.712092] (-) TimerEvent: {}
+[1.812990] (-) TimerEvent: {}
+[1.913669] (-) TimerEvent: {}
+[2.014501] (-) TimerEvent: {}
+[2.115600] (-) TimerEvent: {}
+[2.174070] (village_li) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/village_li', 'build', '--build-base', '/home/zfh/code/ros2Std/town_ws/build/village_li/build', 'install', '--record', '/home/zfh/code/ros2Std/town_ws/build/village_li/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zfh/code/ros2Std/town_ws/src/village_li', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'guolujie', 'GIT_ASKPASS': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zfh', 'OLDPWD': '/home/zfh/code/ros2Std/town_ws', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-59f401ab-4c82-4dc4-a0ac-0f1a615727b0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zfh/code/ros2Std/town_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'guolujie', 'NAME': 'Surface', 'WSL_INTEROP': '/run/WSL/497_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/ss/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ss/AppData/Local/Programs/Microsoft VS Code/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f8d99ed0dd.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/zfh/code/ros2Std/town_ws/install/village_li:/opt/ros/humble', 'SHELL': '/usr/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'JAVA_HOME': '/usr/lib/jvm/java-8-openjdk-amd64', 'PWD': '/home/zfh/code/ros2Std/town_ws/build/village_li', 'PYTHONPATH': '/home/zfh/code/ros2Std/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:/home/zfh/code/code/ros2Std/town_ws/build/village_li:/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/zfh/code/ros2Std/town_ws/install/village_wang', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.215985] (-) TimerEvent: {}
+[2.316717] (-) TimerEvent: {}
+[2.417527] (-) TimerEvent: {}
+[2.518288] (-) TimerEvent: {}
+[2.619085] (-) TimerEvent: {}
+[2.720020] (-) TimerEvent: {}
+[2.788901] (village_li) StdoutLine: {'line': b'running egg_info\n'}
+[2.792214] (village_li) StdoutLine: {'line': b'writing ../../build/village_li/village_li.egg-info/PKG-INFO\n'}
+[2.792707] (village_li) StdoutLine: {'line': b'writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt\n'}
+[2.793292] (village_li) StdoutLine: {'line': b'writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt\n'}
+[2.794031] (village_li) StdoutLine: {'line': b'writing requirements to ../../build/village_li/village_li.egg-info/requires.txt\n'}
+[2.794760] (village_li) StdoutLine: {'line': b'writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt\n'}
+[2.808069] (village_li) StdoutLine: {'line': b"reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.810625] (village_li) StdoutLine: {'line': b"writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.811980] (village_li) StdoutLine: {'line': b'running build\n'}
+[2.812408] (village_li) StdoutLine: {'line': b'running build_py\n'}
+[2.813033] (village_li) StdoutLine: {'line': b'copying village_li/li4_pop.py -> /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li\n'}
+[2.813588] (village_li) StdoutLine: {'line': b'copying village_li/li4_oop.py -> /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li\n'}
+[2.814883] (village_li) StdoutLine: {'line': b'copying village_li/li4_publisher.py -> /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li\n'}
+[2.815869] (village_li) StdoutLine: {'line': b'copying village_li/__init__.py -> /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li\n'}
+[2.816859] (village_li) StdoutLine: {'line': b'running install\n'}
+[2.817794] (village_li) StdoutLine: {'line': b'running install_lib\n'}
+[2.819448] (village_li) StdoutLine: {'line': b'copying /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_pop.py -> /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.820177] (-) TimerEvent: {}
+[2.820494] (village_li) StdoutLine: {'line': b'copying /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_oop.py -> /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.821243] (village_li) StdoutLine: {'line': b'copying /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_publisher.py -> /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.821562] (village_li) StdoutLine: {'line': b'copying /home/zfh/code/ros2Std/town_ws/build/village_li/build/lib/village_li/__init__.py -> /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.822796] (village_li) StdoutLine: {'line': b'byte-compiling /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc\n'}
+[2.823601] (village_li) StdoutLine: {'line': b'byte-compiling /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_oop.py to li4_oop.cpython-310.pyc\n'}
+[2.824537] (village_li) StdoutLine: {'line': b'byte-compiling /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_publisher.py to li4_publisher.cpython-310.pyc\n'}
+[2.826086] (village_li) StdoutLine: {'line': b'byte-compiling /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc\n'}
+[2.826760] (village_li) StdoutLine: {'line': b'running install_data\n'}
+[2.827163] (village_li) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.834327] (village_li) StdoutLine: {'line': b'Copying ../../build/village_li/village_li.egg-info to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info\n'}
+[2.845219] (village_li) StdoutLine: {'line': b'running install_scripts\n'}
+[2.899641] (village_li) StdoutLine: {'line': b'Installing li4_node script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[2.900207] (village_li) StdoutLine: {'line': b'Installing li4_node_oop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[2.900480] (village_li) StdoutLine: {'line': b'Installing li4_node_pop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[2.901352] (village_li) StdoutLine: {'line': b"writing list of installed files to '/home/zfh/code/ros2Std/town_ws/build/village_li/install.log'\n"}
+[2.920451] (-) TimerEvent: {}
+[2.972274] (village_li) CommandEnded: {'returncode': 0}
+[3.003639] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[3.006659] (-) EventReactorShutdown: {}
