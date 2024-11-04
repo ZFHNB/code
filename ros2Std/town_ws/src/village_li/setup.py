@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "li4_node_pop=villege_li.li4_pop:main",
-            "li4_node_oop=villege_li.li4_oop:main"
+            "li4_node_pop=village_li.li4_pop:main",
+            "li4_node_oop=village_li.li4_oop:main",
+            "li4_node=village_li.li4_publisher:main"
         ],
     },
 )

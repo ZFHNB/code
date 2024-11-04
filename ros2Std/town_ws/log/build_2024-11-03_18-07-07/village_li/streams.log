@@ -1,0 +1,16 @@
+[0.713s] Invoking command in '/home/zfh/code/code/ros2Std/town_ws/src/village_li': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/village_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/zfh/code/code/ros2Std/town_ws/build/village_li/build install --record /home/zfh/code/code/ros2Std/town_ws/build/village_li/install.log --single-version-externally-managed install_data
+[0.940s] running egg_info
+[0.941s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[0.941s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[0.941s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[0.944s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.945s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.945s] running build_py
+[0.945s] running install
+[0.945s] running install_lib
+[0.947s] running install_data
+[0.947s] error: can't copy 'resource/village_li': doesn't exist or not a regular file
+[0.977s] Invoked command in '/home/zfh/code/code/ros2Std/town_ws/src/village_li' returned '1': PYTHONPATH=/home/zfh/code/code/ros2Std/town_ws/build/village_li/prefix_override:/home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/zfh/code/code/ros2Std/town_ws/build/village_li/build install --record /home/zfh/code/code/ros2Std/town_ws/build/village_li/install.log --single-version-externally-managed install_data

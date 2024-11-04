@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/village_li/village_li.egg-info
+writing ../../build/village_li/village_li.egg-info/PKG-INFO
+writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zfh/code/code/ros2Std/town_ws/build/village_li/build
+creating /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib
+creating /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li
+copying village_li/li4_oop.py -> /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li
+copying village_li/li4_pop.py -> /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li
+copying village_li/li4_publisher.py -> /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li
+copying village_li/__init__.py -> /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li
+running install
+running install_lib
+creating /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+copying /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_oop.py -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+copying /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_pop.py -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+copying /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li/li4_publisher.py -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+copying /home/zfh/code/code/ros2Std/town_ws/build/village_li/build/lib/village_li/__init__.py -> /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li
+byte-compiling /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_oop.py to li4_oop.cpython-310.pyc
+byte-compiling /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc
+byte-compiling /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/li4_publisher.py to li4_publisher.cpython-310.pyc
+byte-compiling /home/zfh/code/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zfh/code/code/ros2Std/town_ws/install/village_li/share/ament_index
+creating /home/zfh/code/code/ros2Std/town_ws/install/village_li/share/ament_index/resource_index
+creating /home/zfh/code/code/ros2Std/town_ws/install/village_li/share/ament_index/resource_index/packages
+error: can't copy 'resource/village_li': doesn't exist or not a regular file

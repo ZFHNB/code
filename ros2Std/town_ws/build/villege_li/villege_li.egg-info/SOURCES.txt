@@ -12,6 +12,7 @@ resource/villege_li
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
-villege_li/__init__.py
-villege_li/li4_oop.py
-villege_li/li4_pop.py
+village_li/__init__.py
+village_li/li4_oop.py
+village_li/li4_pop.py
+village_li/li4_publisher.py
