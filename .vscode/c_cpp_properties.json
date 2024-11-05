@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/humble/**"
+                "/opt/ros/humble/include/**",
+                "/opt/ros/humble/include",
+                "/opt/ros/humble/include/std_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",

@@ -1,0 +1,2 @@
+Invoking command in '/home/zfh/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4
+Invoked command in '/home/zfh/code/ros2Std/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4

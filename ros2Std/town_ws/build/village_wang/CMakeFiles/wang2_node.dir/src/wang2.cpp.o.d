@@ -1,5 +1,5 @@
 CMakeFiles/wang2_node.dir/src/wang2.cpp.o: \
- /home/zfh/code/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp \
+ /home/zfh/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -598,4 +598,12 @@ CMakeFiles/wang2_node.dir/src/wang2.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
- /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
+ /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/u_int32.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int32__traits.hpp

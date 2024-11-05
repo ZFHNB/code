@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zfh/code/code/ros2Std/town_ws/src/village_wang
+CMAKE_SOURCE_DIR = /home/zfh/code/ros2Std/town_ws/src/village_wang
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zfh/code/code/ros2Std/town_ws/build/village_wang
+CMAKE_BINARY_DIR = /home/zfh/code/ros2Std/town_ws/build/village_wang
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/zfh/code/code/ros2Std/town_ws/build/village_wang && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zfh/code/code/ros2Std/town_ws/src/village_wang /home/zfh/code/code/ros2Std/town_ws/src/village_wang /home/zfh/code/code/ros2Std/town_ws/build/village_wang /home/zfh/code/code/ros2Std/town_ws/build/village_wang /home/zfh/code/code/ros2Std/town_ws/build/village_wang/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zfh/code/ros2Std/town_ws/build/village_wang && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zfh/code/ros2Std/town_ws/src/village_wang /home/zfh/code/ros2Std/town_ws/src/village_wang /home/zfh/code/ros2Std/town_ws/build/village_wang /home/zfh/code/ros2Std/town_ws/build/village_wang /home/zfh/code/ros2Std/town_ws/build/village_wang/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

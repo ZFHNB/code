@@ -1,0 +1,32 @@
+[0.501s] Invoking command in '/home/zfh/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4
+[0.713s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.051s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.437s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.448s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.477s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.752s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.765s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.532s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.679s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.680s] -- Configured cppcheck include dirs: 
+[8.680s] -- Configured cppcheck exclude dirs and/or files: 
+[8.682s] -- Added test 'lint_cmake' to check CMake code style
+[8.684s] -- Added test 'uncrustify' to check C / C++ code style
+[8.685s] -- Configured uncrustify additional arguments: 
+[8.686s] -- Added test 'xmllint' to check XML markup files
+[8.694s] -- Configuring done
+[8.741s] -- Generating done
+[8.745s] -- Build files have been written to: /home/zfh/code/ros2Std/town_ws/build/village_wang
+[8.798s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[8.823s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[29.845s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[30.718s] /usr/bin/ld: CMakeFiles/wang2_node.dir/src/wang2.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<std_msgs::msg::String_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<std_msgs::msg::String_<std::allocator<void> > >()':
+[30.718s] wang2.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN8std_msgs3msg7String_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN8std_msgs3msg7String_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std_msgs::msg::String_<std::allocator<void> > >()'
+[30.772s] collect2: error: ld returned 1 exit status
+[30.777s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:151：wang2_node] 错误 1
+[30.778s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[30.778s] gmake: *** [Makefile:146：all] 错误 2
+[30.782s] Invoked command in '/home/zfh/code/ros2Std/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4

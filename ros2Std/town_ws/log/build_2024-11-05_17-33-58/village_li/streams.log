@@ -1,0 +1,23 @@
+[1.810s] Invoking command in '/home/zfh/code/ros2Std/town_ws/src/village_li': PYTHONPATH=/home/zfh/code/ros2Std/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/zfh/code/ros2Std/town_ws/build/village_li/build install --record /home/zfh/code/ros2Std/town_ws/build/village_li/install.log --single-version-externally-managed install_data
+[2.373s] running egg_info
+[2.376s] writing ../../build/village_li/village_li.egg-info/PKG-INFO
+[2.377s] writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt
+[2.379s] writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt
+[2.381s] writing requirements to ../../build/village_li/village_li.egg-info/requires.txt
+[2.381s] writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt
+[2.395s] reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.398s] writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.400s] running build
+[2.400s] running build_py
+[2.402s] running install
+[2.402s] running install_lib
+[2.408s] running install_data
+[2.408s] running install_egg_info
+[2.412s] removing '/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)
+[2.417s] Copying ../../build/village_li/village_li.egg-info to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[2.423s] running install_scripts
+[2.476s] Installing li4_node script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li
+[2.481s] Installing li4_node_oop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li
+[2.481s] Installing li4_node_pop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li
+[2.483s] writing list of installed files to '/home/zfh/code/ros2Std/town_ws/build/village_li/install.log'
+[2.566s] Invoked command in '/home/zfh/code/ros2Std/town_ws/src/village_li' returned '0': PYTHONPATH=/home/zfh/code/ros2Std/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/village_li build --build-base /home/zfh/code/ros2Std/town_ws/build/village_li/build install --record /home/zfh/code/ros2Std/town_ws/build/village_li/install.log --single-version-externally-managed install_data

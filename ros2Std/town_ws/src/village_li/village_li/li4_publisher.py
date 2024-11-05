@@ -21,7 +21,7 @@ class WriterNode(Node):
         self.pub_novel = self.create_publisher(String, "sexy_girl", 10)
 
         self.count = 0 #计数器
-        self.timer_period = 5 #定时间隔，单位s
+        self.timer_period = 5 #定时间隔，单位s从
         self.timer = self.create_timer(self.timer_period, self.timer_callback) #创建并启动定时器
     def timer_callback(self):
         msg = String()

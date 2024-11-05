@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.003448] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict()}
+[0.003736] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.003915] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.066348] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.097239] (-) TimerEvent: {}
+[0.198347] (-) TimerEvent: {}
+[0.300098] (-) TimerEvent: {}
+[0.402432] (-) TimerEvent: {}
+[0.503309] (-) TimerEvent: {}
+[0.604153] (-) TimerEvent: {}
+[0.705114] (-) TimerEvent: {}
+[0.805993] (-) TimerEvent: {}
+[0.907076] (-) TimerEvent: {}
+[1.009579] (-) TimerEvent: {}
+[1.110809] (-) TimerEvent: {}
+[1.212634] (-) TimerEvent: {}
+[1.313426] (-) TimerEvent: {}
+[1.415459] (-) TimerEvent: {}
+[1.516664] (-) TimerEvent: {}
+[1.560300] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[1.567192] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[1.570638] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zfh/code/ros2Std/town_ws/build/village_wang', '--', '-j4', '-l4'], 'cwd': '/home/zfh/code/ros2Std/town_ws/build/village_wang', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'guolujie'), ('GIT_ASKPASS', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('INPUT_METHOD', 'fcitx'), ('HOME', '/home/zfh'), ('OLDPWD', '/home/zfh/code/ros2Std/town_ws/build/village_wang'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c8aea9c-efa4-43f0-839f-d10fd3860bd8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'guolujie'), ('NAME', 'Surface'), ('WSL_INTEROP', '/run/WSL/13377_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/home/zfh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/ss/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ss/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f8d99ed0dd.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/zfh/code/ros2Std/town_ws/build/village_wang'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.625186] (-) TimerEvent: {}
+[1.731124] (-) TimerEvent: {}
+[1.834202] (-) TimerEvent: {}
+[1.935342] (-) TimerEvent: {}
+[1.942953] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.035787] (-) TimerEvent: {}
+[2.136747] (-) TimerEvent: {}
+[2.238037] (-) TimerEvent: {}
+[2.339098] (-) TimerEvent: {}
+[2.441303] (-) TimerEvent: {}
+[2.543515] (-) TimerEvent: {}
+[2.644687] (-) TimerEvent: {}
+[2.747792] (-) TimerEvent: {}
+[2.849070] (-) TimerEvent: {}
+[2.937913] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.949478] (-) TimerEvent: {}
+[3.050608] (-) TimerEvent: {}
+[3.151641] (-) TimerEvent: {}
+[3.252922] (-) TimerEvent: {}
+[3.353883] (-) TimerEvent: {}
+[3.454799] (-) TimerEvent: {}
+[3.560354] (-) TimerEvent: {}
+[3.661562] (-) TimerEvent: {}
+[3.709277] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.726498] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.762348] (-) TimerEvent: {}
+[3.771158] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.863287] (-) TimerEvent: {}
+[3.873672] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.964072] (-) TimerEvent: {}
+[4.009243] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.064319] (-) TimerEvent: {}
+[4.165742] (-) TimerEvent: {}
+[4.266881] (-) TimerEvent: {}
+[4.336509] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.356210] (village_wang) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.367470] (-) TimerEvent: {}
+[4.469294] (-) TimerEvent: {}
+[4.570481] (-) TimerEvent: {}
+[4.671827] (-) TimerEvent: {}
+[4.773307] (-) TimerEvent: {}
+[4.874262] (-) TimerEvent: {}
+[4.975468] (-) TimerEvent: {}
+[5.076569] (-) TimerEvent: {}
+[5.189412] (-) TimerEvent: {}
+[5.290915] (-) TimerEvent: {}
+[5.393021] (-) TimerEvent: {}
+[5.494040] (-) TimerEvent: {}
+[5.597908] (-) TimerEvent: {}
+[5.602330] (village_li) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/village_li', 'build', '--build-base', '/home/zfh/code/ros2Std/town_ws/build/village_li/build', 'install', '--record', '/home/zfh/code/ros2Std/town_ws/build/village_li/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zfh/code/ros2Std/town_ws/src/village_li', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'guolujie', 'GIT_ASKPASS': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'INPUT_METHOD': 'fcitx', 'HOME': '/home/zfh', 'OLDPWD': '/home/zfh/code/ros2Std/town_ws/build/village_wang', 'TERM_PROGRAM_VERSION': '1.95.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4c8aea9c-efa4-43f0-839f-d10fd3860bd8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'guolujie', 'NAME': 'Surface', 'WSL_INTEROP': '/run/WSL/13377_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zfh/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/home/zfh/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/ss/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ss/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f8d99ed0dd.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/usr/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'JAVA_HOME': '/usr/lib/jvm/java-8-openjdk-amd64', 'PWD': '/home/zfh/code/ros2Std/town_ws/build/village_li', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zfh/code/ros2Std/town_ws/build/village_li/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[5.698304] (-) TimerEvent: {}
+[5.799690] (-) TimerEvent: {}
+[5.901695] (-) TimerEvent: {}
+[6.003364] (-) TimerEvent: {}
+[6.104354] (-) TimerEvent: {}
+[6.205425] (-) TimerEvent: {}
+[6.306526] (-) TimerEvent: {}
+[6.407518] (-) TimerEvent: {}
+[6.509056] (-) TimerEvent: {}
+[6.610631] (-) TimerEvent: {}
+[6.712438] (-) TimerEvent: {}
+[6.814577] (-) TimerEvent: {}
+[6.915683] (-) TimerEvent: {}
+[7.017139] (-) TimerEvent: {}
+[7.119448] (-) TimerEvent: {}
+[7.220709] (-) TimerEvent: {}
+[7.322149] (-) TimerEvent: {}
+[7.423309] (-) TimerEvent: {}
+[7.524185] (-) TimerEvent: {}
+[7.625269] (-) TimerEvent: {}
+[7.714934] (village_li) StdoutLine: {'line': b'running egg_info\n'}
+[7.722204] (village_li) StdoutLine: {'line': b'writing ../../build/village_li/village_li.egg-info/PKG-INFO\n'}
+[7.724298] (village_li) StdoutLine: {'line': b'writing dependency_links to ../../build/village_li/village_li.egg-info/dependency_links.txt\n'}
+[7.725208] (village_li) StdoutLine: {'line': b'writing entry points to ../../build/village_li/village_li.egg-info/entry_points.txt\n'}
+[7.725630] (-) TimerEvent: {}
+[7.726868] (village_li) StdoutLine: {'line': b'writing requirements to ../../build/village_li/village_li.egg-info/requires.txt\n'}
+[7.727399] (village_li) StdoutLine: {'line': b'writing top-level names to ../../build/village_li/village_li.egg-info/top_level.txt\n'}
+[7.759220] (village_li) StdoutLine: {'line': b"reading manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[7.765752] (village_li) StdoutLine: {'line': b"writing manifest file '../../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[7.771581] (village_li) StdoutLine: {'line': b'running build\n'}
+[7.772892] (village_li) StdoutLine: {'line': b'running build_py\n'}
+[7.775082] (village_li) StdoutLine: {'line': b'running install\n'}
+[7.776522] (village_li) StdoutLine: {'line': b'running install_lib\n'}
+[7.789661] (village_li) StdoutLine: {'line': b'running install_data\n'}
+[7.790452] (village_li) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.805167] (village_li) StdoutLine: {'line': b"removing '/home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.811084] (village_li) StdoutLine: {'line': b'Copying ../../build/village_li/village_li.egg-info to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info\n'}
+[7.822429] (village_li) StdoutLine: {'line': b'running install_scripts\n'}
+[7.826020] (-) TimerEvent: {}
+[7.929308] (-) TimerEvent: {}
+[8.019883] (village_li) StdoutLine: {'line': b'Installing li4_node script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[8.021158] (village_li) StdoutLine: {'line': b'Installing li4_node_oop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[8.023137] (village_li) StdoutLine: {'line': b'Installing li4_node_pop script to /home/zfh/code/ros2Std/town_ws/install/village_li/lib/village_li\n'}
+[8.025979] (village_li) StdoutLine: {'line': b"writing list of installed files to '/home/zfh/code/ros2Std/town_ws/build/village_li/install.log'\n"}
+[8.029771] (-) TimerEvent: {}
+[8.132936] (-) TimerEvent: {}
+[8.233288] (village_li) CommandEnded: {'returncode': 0}
+[8.235177] (-) TimerEvent: {}
+[8.327796] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[8.336445] (-) TimerEvent: {}
+[8.437564] (-) TimerEvent: {}
+[8.538826] (-) TimerEvent: {}
+[8.639992] (-) TimerEvent: {}
+[8.741426] (-) TimerEvent: {}
+[8.843105] (-) TimerEvent: {}
+[8.945646] (-) TimerEvent: {}
+[9.047363] (-) TimerEvent: {}
+[9.149264] (-) TimerEvent: {}
+[9.250647] (-) TimerEvent: {}
+[9.356689] (-) TimerEvent: {}
+[9.461406] (-) TimerEvent: {}
+[9.563492] (-) TimerEvent: {}
+[9.664719] (-) TimerEvent: {}
+[9.766727] (-) TimerEvent: {}
+[9.867940] (-) TimerEvent: {}
+[9.969503] (-) TimerEvent: {}
+[10.071286] (-) TimerEvent: {}
+[10.172953] (-) TimerEvent: {}
+[10.276577] (-) TimerEvent: {}
+[10.377750] (-) TimerEvent: {}
+[10.479318] (-) TimerEvent: {}
+[10.580489] (-) TimerEvent: {}
+[10.682311] (-) TimerEvent: {}
+[10.798043] (-) TimerEvent: {}
+[10.899246] (-) TimerEvent: {}
+[11.000410] (-) TimerEvent: {}
+[11.101788] (-) TimerEvent: {}
+[11.203335] (-) TimerEvent: {}
+[11.304392] (-) TimerEvent: {}
+[11.405410] (-) TimerEvent: {}
+[11.506196] (-) TimerEvent: {}
+[11.607176] (-) TimerEvent: {}
+[11.708172] (-) TimerEvent: {}
+[11.809304] (-) TimerEvent: {}
+[11.910953] (-) TimerEvent: {}
+[12.012227] (-) TimerEvent: {}
+[12.113224] (-) TimerEvent: {}
+[12.214194] (-) TimerEvent: {}
+[12.315181] (-) TimerEvent: {}
+[12.420801] (-) TimerEvent: {}
+[12.522346] (-) TimerEvent: {}
+[12.624006] (-) TimerEvent: {}
+[12.725659] (-) TimerEvent: {}
+[12.827120] (-) TimerEvent: {}
+[12.928397] (-) TimerEvent: {}
+[13.029761] (-) TimerEvent: {}
+[13.131907] (-) TimerEvent: {}
+[13.232819] (-) TimerEvent: {}
+[13.333728] (-) TimerEvent: {}
+[13.436448] (-) TimerEvent: {}
+[13.537596] (-) TimerEvent: {}
+[13.638877] (-) TimerEvent: {}
+[13.740286] (-) TimerEvent: {}
+[13.841702] (-) TimerEvent: {}
+[13.943159] (-) TimerEvent: {}
+[14.044035] (-) TimerEvent: {}
+[14.144958] (-) TimerEvent: {}
+[14.246076] (-) TimerEvent: {}
+[14.347180] (-) TimerEvent: {}
+[14.448351] (-) TimerEvent: {}
+[14.549606] (-) TimerEvent: {}
+[14.651094] (-) TimerEvent: {}
+[14.752499] (-) TimerEvent: {}
+[14.853355] (-) TimerEvent: {}
+[14.954572] (-) TimerEvent: {}
+[15.055794] (-) TimerEvent: {}
+[15.156763] (-) TimerEvent: {}
+[15.257890] (-) TimerEvent: {}
+[15.359119] (-) TimerEvent: {}
+[15.460575] (-) TimerEvent: {}
+[15.562585] (-) TimerEvent: {}
+[15.664058] (-) TimerEvent: {}
+[15.765465] (-) TimerEvent: {}
+[15.866833] (-) TimerEvent: {}
+[15.968336] (-) TimerEvent: {}
+[16.069593] (-) TimerEvent: {}
+[16.171188] (-) TimerEvent: {}
+[16.272493] (-) TimerEvent: {}
+[16.373997] (-) TimerEvent: {}
+[16.475013] (-) TimerEvent: {}
+[16.576361] (-) TimerEvent: {}
+[16.677678] (-) TimerEvent: {}
+[16.780671] (-) TimerEvent: {}
+[16.881775] (-) TimerEvent: {}
+[16.983221] (-) TimerEvent: {}
+[17.084075] (-) TimerEvent: {}
+[17.188441] (-) TimerEvent: {}
+[17.289977] (-) TimerEvent: {}
+[17.410252] (-) TimerEvent: {}
+[17.511279] (-) TimerEvent: {}
+[17.612502] (-) TimerEvent: {}
+[17.713398] (-) TimerEvent: {}
+[17.822093] (-) TimerEvent: {}
+[17.923415] (-) TimerEvent: {}
+[18.024893] (-) TimerEvent: {}
+[18.125835] (-) TimerEvent: {}
+[18.227173] (-) TimerEvent: {}
+[18.328760] (-) TimerEvent: {}
+[18.429913] (-) TimerEvent: {}
+[18.531015] (-) TimerEvent: {}
+[18.632636] (-) TimerEvent: {}
+[18.735574] (-) TimerEvent: {}
+[18.838024] (-) TimerEvent: {}
+[18.939653] (-) TimerEvent: {}
+[19.041028] (-) TimerEvent: {}
+[19.141913] (-) TimerEvent: {}
+[19.243359] (-) TimerEvent: {}
+[19.344313] (-) TimerEvent: {}
+[19.445155] (-) TimerEvent: {}
+[19.449238] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.545464] (-) TimerEvent: {}
+[19.646944] (-) TimerEvent: {}
+[19.748677] (-) TimerEvent: {}
+[19.850176] (-) TimerEvent: {}
+[19.951361] (-) TimerEvent: {}
+[20.053209] (-) TimerEvent: {}
+[20.153997] (-) TimerEvent: {}
+[20.254923] (-) TimerEvent: {}
+[20.356438] (-) TimerEvent: {}
+[20.419075] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.456386] (-) TimerEvent: {}
+[20.557798] (-) TimerEvent: {}
+[20.659218] (-) TimerEvent: {}
+[20.760665] (-) TimerEvent: {}
+[20.862184] (-) TimerEvent: {}
+[20.963398] (-) TimerEvent: {}
+[21.064408] (-) TimerEvent: {}
+[21.165318] (-) TimerEvent: {}
+[21.266167] (-) TimerEvent: {}
+[21.367378] (-) TimerEvent: {}
+[21.468889] (-) TimerEvent: {}
+[21.570205] (-) TimerEvent: {}
+[21.580193] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.583065] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[21.598621] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.608712] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.610924] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.615125] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.615863] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.633739] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.670959] (-) TimerEvent: {}
+[21.773054] (-) TimerEvent: {}
+[21.847118] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[21.879570] (-) TimerEvent: {}
+[21.893642] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/zfh/code/ros2Std/town_ws/build/village_wang\n'}
+[21.978817] (-) TimerEvent: {}
+[22.080682] (-) TimerEvent: {}
+[22.161635] (village_wang) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wang2_node\x1b[0m\n'}
+[22.181341] (-) TimerEvent: {}
+[22.283264] (-) TimerEvent: {}
+[22.384241] (-) TimerEvent: {}
+[22.389911] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[22.485354] (-) TimerEvent: {}
+[22.589122] (-) TimerEvent: {}
+[22.690411] (-) TimerEvent: {}
+[22.792269] (-) TimerEvent: {}
+[22.894464] (-) TimerEvent: {}
+[22.996943] (-) TimerEvent: {}
+[23.098026] (-) TimerEvent: {}
+[23.255522] (-) TimerEvent: {}
+[23.356339] (-) TimerEvent: {}
+[23.457211] (-) TimerEvent: {}
+[23.686886] (-) TimerEvent: {}
+[23.810130] (-) TimerEvent: {}
+[23.910702] (-) TimerEvent: {}
+[24.014722] (-) TimerEvent: {}
+[24.115569] (-) TimerEvent: {}
+[24.216394] (-) TimerEvent: {}
+[24.317465] (-) TimerEvent: {}
+[24.418557] (-) TimerEvent: {}
+[24.521075] (-) TimerEvent: {}
+[24.622658] (-) TimerEvent: {}
+[24.724661] (-) TimerEvent: {}
+[24.830356] (-) TimerEvent: {}
+[24.931234] (-) TimerEvent: {}
+[25.032446] (-) TimerEvent: {}
+[25.133261] (-) TimerEvent: {}
+[25.233941] (-) TimerEvent: {}
+[25.335073] (-) TimerEvent: {}
+[25.436454] (-) TimerEvent: {}
+[25.537466] (-) TimerEvent: {}
+[25.638442] (-) TimerEvent: {}
+[25.739831] (-) TimerEvent: {}
+[25.841645] (-) TimerEvent: {}
+[25.942613] (-) TimerEvent: {}
+[26.043492] (-) TimerEvent: {}
+[26.145177] (-) TimerEvent: {}
+[26.257053] (-) TimerEvent: {}
+[26.358345] (-) TimerEvent: {}
+[26.460788] (-) TimerEvent: {}
+[26.563869] (-) TimerEvent: {}
+[26.665406] (-) TimerEvent: {}
+[26.766863] (-) TimerEvent: {}
+[26.868325] (-) TimerEvent: {}
+[26.974901] (-) TimerEvent: {}
+[27.079158] (-) TimerEvent: {}
+[27.180457] (-) TimerEvent: {}
+[27.281787] (-) TimerEvent: {}
+[27.383399] (-) TimerEvent: {}
+[27.484282] (-) TimerEvent: {}
+[27.585462] (-) TimerEvent: {}
+[27.686696] (-) TimerEvent: {}
+[27.787933] (-) TimerEvent: {}
+[27.889283] (-) TimerEvent: {}
+[27.992126] (-) TimerEvent: {}
+[28.093403] (-) TimerEvent: {}
+[28.194340] (-) TimerEvent: {}
+[28.295293] (-) TimerEvent: {}
+[28.339936] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zfh/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[28.340827] (village_wang) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[28.341319] (village_wang) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.345589] (village_wang) StderrLine: {'line': b'compilation terminated.\n'}
+[28.377721] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/wang2_node.dir/src/wang2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[28.380932] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/wang2_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[28.382284] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[28.392522] (village_wang) CommandEnded: {'returncode': 2}
+[28.402973] (-) TimerEvent: {}
+[28.509670] (-) TimerEvent: {}
+[28.598964] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[28.610353] (-) TimerEvent: {}
+[28.615059] (-) EventReactorShutdown: {}

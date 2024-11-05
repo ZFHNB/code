@@ -1,0 +1,54 @@
+[2.778s] Invoking command in '/home/zfh/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zfh/code/ros2Std/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/zfh/code/ros2Std/town_ws/install/village_wang
+[5.699s] -- The C compiler identification is GNU 11.4.0
+[9.253s] -- The CXX compiler identification is GNU 11.4.0
+[10.090s] -- Detecting C compiler ABI info
+[10.695s] -- Detecting C compiler ABI info - done
+[10.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.761s] -- Detecting C compile features
+[10.765s] -- Detecting C compile features - done
+[10.800s] -- Detecting CXX compiler ABI info
+[11.384s] -- Detecting CXX compiler ABI info - done
+[11.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.438s] -- Detecting CXX compile features
+[11.440s] -- Detecting CXX compile features - done
+[11.543s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.086s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[14.050s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[14.828s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.898s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.999s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.045s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[23.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.415s] -- Found FastRTPS: /opt/ros/humble/include  
+[33.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[33.803s] -- Looking for pthread.h
+[34.363s] -- Looking for pthread.h - found
+[34.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[34.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[34.939s] -- Found Threads: TRUE  
+[35.615s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[36.096s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[36.097s] -- Configured cppcheck include dirs: 
+[36.098s] -- Configured cppcheck exclude dirs and/or files: 
+[36.104s] -- Added test 'lint_cmake' to check CMake code style
+[36.113s] -- Added test 'uncrustify' to check C / C++ code style
+[36.113s] -- Configured uncrustify additional arguments: 
+[36.123s] -- Added test 'xmllint' to check XML markup files
+[36.141s] -- Configuring done
+[36.252s] -- Generating done
+[36.274s] -- Build files have been written to: /home/zfh/code/ros2Std/town_ws/build/village_wang
+[36.338s] Invoked command in '/home/zfh/code/ros2Std/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zfh/code/ros2Std/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/zfh/code/ros2Std/town_ws/install/village_wang
+[36.350s] Invoking command in '/home/zfh/code/ros2Std/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4
+[36.540s] [35m[1mConsolidate compiler generated dependencies of target wang2_node[0m
+[36.818s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[43.328s] [01m[K/home/zfh/code/ros2Std/town_ws/src/village_wang/src/wang2.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[43.329s]     5 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[43.330s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.330s] compilation terminated.
+[43.340s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+[43.344s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/wang2_node.dir/all] 错误 2
+[43.345s] gmake: *** [Makefile:146：all] 错误 2
+[43.357s] Invoked command in '/home/zfh/code/ros2Std/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zfh/code/ros2Std/town_ws/build/village_wang -- -j4 -l4

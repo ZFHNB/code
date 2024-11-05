@@ -1,1 +1,2 @@
-/home/zfh/code/code/ros2Std/town_ws/build/village_wang/ament_cmake_environment_hooks/local_setup.dsv
+source;share/village_wang/environment/ament_prefix_path.sh
+source;share/village_wang/environment/path.sh

@@ -5,9 +5,10 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -21,10 +22,25 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# ament包配置
 ament_package()
 
-add_executable(wang2_node src/wang2.cpp)     # 添加可执行文件
-ament_target_dependencies(wang2_node rclcpp) # 添加编译器依赖
-install(TARGETS                              
-        wang2_node                           #节点名
-        DESTINATION lib/${PROJECT_NAME})     #PROJECT_NAME 工程名
+# 包含头文件路径
+include_directories(
+  /opt/ros/humble/include/std_msgs
+)
+
+# 添加可执行文件
+add_executable(wang2_node src/wang2.cpp)
+
+# 添加编译器依赖
+ament_target_dependencies(wang2_node
+  rclcpp
+  std_msgs  # 添加std_msgs依赖
+)
+
+# 安装目标
+install(TARGETS
+  wang2_node
+  DESTINATION lib/${PROJECT_NAME}
+)
