@@ -88,5 +88,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/zfh/code/ros2Std/town_ws/src/village_wang"
 }
